@@ -37,8 +37,13 @@ export default function Login() {
         setStatus({ type: 'success', text: 'Login berhasil! Mengalihkan...' });
         
         setTimeout(() => {
-          if (role === 'admin') window.location.href = '/dashboard';
-          else window.location.href = '/profile';
+          if (role === 'admin') {
+            navigate('/dashboard');
+            window.location.reload(); // Refresh untuk memperbarui state navbar/role di level atas
+          } else {
+            navigate('/profile');
+            window.location.reload();
+          }
         }, 1000);
       }
     } catch (err) {

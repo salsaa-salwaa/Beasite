@@ -37,7 +37,10 @@ export default function Register() {
           setRole('applicant');
           
           setStatus({ type: 'success', text: `Pendaftaran berhasil! Selamat datang, ${name}. Mengalihkan...` });
-          setTimeout(() => { window.location.href = '/profile'; }, 1500);
+          setTimeout(() => {
+            navigate('/profile');
+            window.location.reload();
+          }, 1500);
         }
       } catch (err) {
         setStatus({ type: 'error', text: err.message || 'Gagal mendaftar. Pastikan format email benar dan password minimal 6 karakter.' });
