@@ -1,62 +1,76 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Mail, Lock, LogIn, ArrowRight, Eye, EyeOff } from 'lucide-react';
+import { Mail, Lock, User, UserPlus, ArrowRight, Eye, EyeOff } from 'lucide-react';
 import { setRole } from '../role';
 
 import { supabase } from '../supabaseClient';
 
-export default function Login() {
+export default function Register() {
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [status, setStatus] = useState(null);
   const navigate = useNavigate();
 
-  const handleLogin = async (e) => {
+  const handleRegister = async (e) => {
     e.preventDefault();
-    setStatus({ type: 'success', text: 'Mengecek kredensial...' });
-    
-    try {
-      const { data: authData, error: authError } = await supabase.auth.signInWithPassword({
-        email,
-        password
-      });
-
-      if (authError) throw authError;
-
-      if (authData.user) {
-        // Fetch role from profiles
-        const { data: profile, error: profileError } = await supabase.from('profiles').select('*').eq('id', authData.user.id).single();
+    if (name && email && password) {
+      setStatus({ type: 'success', text: 'Memproses pendaftaran...' });
+      
+      try {
+        const { data, error } = await supabase.auth.signUp({
+          email,
+          password,
+          options: {
+            data: {
+              name: name
+            }
+          }
+        });
         
-        if (profileError) throw profileError;
-
-        const role = profile.role || 'applicant';
-        setRole(role);
-        localStorage.setItem('registeredUser', JSON.stringify(profile));
-
-        setStatus({ type: 'success', text: 'Login berhasil! Mengalihkan...' });
+        if (error) throw error;
         
-        setTimeout(() => {
-          if (role === 'admin') window.location.href = '/dashboard';
-          else window.location.href = '/profile';
-        }, 1000);
+        if (data.user) {
+          // Set local storage fallback for immediate UI update (if needed by other components)
+          localStorage.setItem('registeredUser', JSON.stringify({ id: data.user.id, name, email, role: 'applicant' }));
+          setRole('applicant');
+          
+          setStatus({ type: 'success', text: `Pendaftaran berhasil! Selamat datang, ${name}. Mengalihkan...` });
+          setTimeout(() => { window.location.href = '/profile'; }, 1500);
+        }
+      } catch (err) {
+        setStatus({ type: 'error', text: err.message || 'Gagal mendaftar. Pastikan format email benar dan password minimal 6 karakter.' });
       }
-    } catch (err) {
-      setStatus({ type: 'error', text: err.message === 'Invalid login credentials' ? 'Email atau kata sandi salah!' : err.message });
     }
   };
-
 
   return (
     <div className="container flex justify-center items-center" style={{ minHeight: 'calc(100vh - 150px)', padding: '4rem 1.5rem' }}>
       <div className="card animate-fade-in" style={{ width: '100%', maxWidth: '450px', padding: '3rem 2rem' }}>
         <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-          <h1 style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>Selamat Datang</h1>
-          <p style={{ color: 'var(--text-secondary)' }}>Masuk ke akun <span className="text-cyan font-bold">BeaSIte</span> Anda</p>
+          <h1 style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>Buat Akun Baru</h1>
+          <p style={{ color: 'var(--text-secondary)' }}>Bergabunglah dengan <span className="text-cyan font-bold">BeaSIte</span> sekarang</p>
         </div>
 
-        <form onSubmit={handleLogin} style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+        <form onSubmit={handleRegister} style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
           
+          <div style={{ position: 'relative' }}>
+            <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.875rem', fontWeight: 500, color: 'var(--text-secondary)' }}>Nama Lengkap</label>
+            <div style={{ position: 'relative' }}>
+              <User className="search-icon" size={20} />
+              <input 
+                type="text" 
+                className="search-input" 
+                placeholder="Nama Anda" 
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                required
+                style={{ paddingLeft: '3rem', width: '100%' }}
+              />
+            </div>
+          </div>
+
           <div style={{ position: 'relative' }}>
             <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.875rem', fontWeight: 500, color: 'var(--text-secondary)' }}>Email</label>
             <div style={{ position: 'relative' }}>
@@ -74,10 +88,7 @@ export default function Login() {
           </div>
 
           <div style={{ position: 'relative' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
-              <label style={{ fontSize: '0.875rem', fontWeight: 500, color: 'var(--text-secondary)' }}>Kata Sandi</label>
-              <a href="#" className="text-cyan" style={{ fontSize: '0.875rem' }}>Lupa Sandi?</a>
-            </div>
+            <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.875rem', fontWeight: 500, color: 'var(--text-secondary)' }}>Kata Sandi</label>
             <div style={{ position: 'relative' }}>
               <Lock className="search-icon" size={20} />
               <input 
@@ -110,12 +121,14 @@ export default function Login() {
               </button>
             </div>
           </div>
+
           <button type="submit" className="btn btn-primary" style={{ marginTop: '1rem', padding: '1rem' }}>
-            Masuk <LogIn size={18} />
+            Daftar <UserPlus size={18} />
           </button>
+          
           <div style={{ display: 'flex', alignItems: 'center', margin: '1rem 0', color: 'var(--text-secondary)' }}>
             <div style={{ flex: 1, height: '1px', backgroundColor: 'var(--border-color)' }}></div>
-            <span style={{ padding: '0 1rem', fontSize: '0.875rem' }}>Atau masuk dengan</span>
+            <span style={{ padding: '0 1rem', fontSize: '0.875rem' }}>Atau daftar dengan</span>
             <div style={{ flex: 1, height: '1px', backgroundColor: 'var(--border-color)' }}></div>
           </div>
 
@@ -127,7 +140,7 @@ export default function Login() {
               setStatus({ type: 'success', text: 'Sinkronisasi Google sedang diproses...' });
               setTimeout(() => {
                 setRole('applicant');
-                setStatus({ type: 'success', text: 'Berhasil login dengan Google! Mengalihkan...' });
+                setStatus({ type: 'success', text: 'Berhasil daftar dengan Google! Mengalihkan...' });
                 setTimeout(() => { window.location.href = '/profile'; }, 1000);
               }, 1500);
             }}
@@ -157,9 +170,9 @@ export default function Login() {
         )}
         
         <div style={{ textAlign: 'center', marginTop: '2rem', fontSize: '0.875rem', color: 'var(--text-secondary)' }}>
-          Belum punya akun?{' '}
-          <Link to="/register" className="text-cyan" style={{ fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: '0.25rem' }}>
-            Daftar Sekarang <ArrowRight size={14} />
+          Sudah punya akun?{' '}
+          <Link to="/login" className="text-cyan" style={{ fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: '0.25rem' }}>
+            Masuk Sekarang <ArrowRight size={14} />
           </Link>
         </div>
       </div>

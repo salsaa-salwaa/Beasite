@@ -1,18 +1,39 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { GraduationCap, Menu, X, Sun, Moon } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import { useRole } from '../hooks/useRole';
+
+import { supabase } from '../supabaseClient';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [theme, setTheme] = useState('dark');
   const location = useLocation();
+  const navigate = useNavigate();
+  const { role, setRole } = useRole();
+  const [userName, setUserName] = useState('U');
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+    setRole(null);
+    localStorage.removeItem('registeredUser');
+    navigate('/');
+  };
 
   useEffect(() => {
     // Set initial theme based on localStorage or default to dark
     const savedTheme = localStorage.getItem('theme') || 'dark';
     setTheme(savedTheme);
     document.documentElement.setAttribute('data-theme', savedTheme);
-  }, []);
+    
+    // Get user name for avatar
+    if (role === 'applicant') {
+      const stored = localStorage.getItem('registeredUser');
+      if (stored) {
+        setUserName(JSON.parse(stored).name || 'U');
+      }
+    }
+  }, [role]);
 
   const toggleTheme = () => {
     const newTheme = theme === 'dark' ? 'light' : 'dark';
@@ -42,7 +63,23 @@ export default function Navbar() {
           <button onClick={toggleTheme} className="btn-icon" aria-label="Toggle Theme">
             {theme === 'dark' ? <Sun size={20} color="var(--text-primary)" /> : <Moon size={20} color="var(--text-primary)" />}
           </button>
-          <Link to="/login" className="btn btn-primary" style={{ padding: '0.5rem 1.5rem', color: 'white' }}>Login</Link>
+          {!role ? (
+            <Link to="/login" className="btn btn-primary" style={{ padding: '0.5rem 1.5rem', color: 'white' }}>Login</Link>
+          ) : (
+            <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+              {role === 'admin' && <Link to="/dashboard" className="btn btn-primary" style={{ padding: '0.5rem 1.5rem', color: 'white' }}>Admin Panel</Link>}
+              {role === 'applicant' && (
+                <Link to="/profile" title="Profil Saya" style={{
+                  width: '40px', height: '40px', borderRadius: '50%', backgroundColor: 'var(--accent-cyan)',
+                  display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontWeight: 'bold', fontSize: '1.2rem', textDecoration: 'none', transition: 'transform 0.2s', border: '2px solid transparent'
+                }}
+                onMouseEnter={(e) => e.currentTarget.style.borderColor = 'white'}
+                onMouseLeave={(e) => e.currentTarget.style.borderColor = 'transparent'}>
+                  {userName.charAt(0).toUpperCase()}
+                </Link>
+              )}
+            </div>
+          )}
         </div>
 
         {/* Mobile Nav Buttons */}
@@ -89,7 +126,21 @@ export default function Navbar() {
         <div className="mobile-menu" style={{ zIndex: 40 }}>
           <Link to="/" onClick={toggleMenu} className={isActive('/')} style={{ fontSize: '1.1rem', fontWeight: 500 }}>Beranda</Link>
           <Link to="/scholarships" onClick={toggleMenu} className={isActive('/scholarships')} style={{ fontSize: '1.1rem', fontWeight: 500 }}>Daftar Beasiswa</Link>
-          <Link to="/login" onClick={toggleMenu} className="btn btn-primary" style={{ color: 'white', textAlign: 'center', marginTop: '0.5rem' }}>Login</Link>
+          {!role ? (
+            <Link to="/login" onClick={toggleMenu} className="btn btn-primary" style={{ color: 'white', textAlign: 'center', marginTop: '0.5rem' }}>Login</Link>
+          ) : (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginTop: '0.5rem' }}>
+              {role === 'admin' && <Link to="/dashboard" onClick={toggleMenu} className="btn btn-primary" style={{ color: 'white', textAlign: 'center' }}>Admin Panel</Link>}
+              {role === 'applicant' && (
+                <Link to="/profile" onClick={toggleMenu} style={{ display: 'flex', alignItems: 'center', gap: '1rem', padding: '0.75rem', textDecoration: 'none', color: 'var(--text-primary)', backgroundColor: 'var(--bg-primary)', borderRadius: '0.5rem' }}>
+                  <div style={{ width: '32px', height: '32px', borderRadius: '50%', backgroundColor: 'var(--accent-cyan)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontWeight: 'bold', fontSize: '1rem' }}>
+                    {userName.charAt(0).toUpperCase()}
+                  </div>
+                  <span style={{ fontWeight: 500 }}>Profil Saya</span>
+                </Link>
+              )}
+            </div>
+          )}
         </div>
       )}
     </nav>

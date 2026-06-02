@@ -7,15 +7,15 @@ import Home from './pages/Home';
 import Scholarships from './pages/Scholarships';
 import ScholarshipDetail from './pages/ScholarshipDetail';
 import Login from './pages/Login';
+import Register from './pages/Register';
+import Dashboard from './pages/Dashboard';
+import UserProfile from './pages/UserProfile';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
-  
   useEffect(() => {
-    // Dengan Lenis, kita pakai 'auto' atau 'instant' agar tidak konflik dengan native smooth scroll
     window.scrollTo({ top: 0, behavior: 'auto' });
   }, [pathname]);
-  
   return null;
 }
 
@@ -23,7 +23,7 @@ function SmoothScroller({ children }) {
   useEffect(() => {
     const lenis = new Lenis({
       duration: 1.2,
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // easeOutExpo
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       direction: 'vertical',
       gestureDirection: 'vertical',
       smooth: true,
@@ -32,27 +32,18 @@ function SmoothScroller({ children }) {
       touchMultiplier: 2,
       infinite: false,
     });
-
-    // Handle scroll on sticky elements if necessary (Lenis handles native sticky well by default)
-
     function raf(time) {
       lenis.raf(time);
       requestAnimationFrame(raf);
     }
-
     requestAnimationFrame(raf);
-
-    return () => {
-      lenis.destroy();
-    };
+    return () => lenis.destroy();
   }, []);
-
   return <>{children}</>;
 }
 
 function AnimatedRoutes() {
   const location = useLocation();
-  
   return (
     <main key={location.pathname} className="page-transition" style={{ flexGrow: 1 }}>
       <Routes location={location}>
@@ -60,6 +51,9 @@ function AnimatedRoutes() {
         <Route path="/scholarships" element={<Scholarships />} />
         <Route path="/scholarship/:id" element={<ScholarshipDetail />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/profile" element={<UserProfile />} />
       </Routes>
     </main>
   );

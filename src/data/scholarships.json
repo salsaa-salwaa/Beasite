@@ -1,0 +1,1492 @@
+[
+  {
+    "id": "lpdp",
+    "title": "Beasiswa Reguler LPDP",
+    "provider": "Kementerian Keuangan RI",
+    "deadline": "2026-07-15",
+    "value": "Fully Funded + Uang Saku",
+    "level": "S2, S3",
+    "type": "Dalam & Luar Negeri",
+    "description": "Beasiswa LPDP (Lembaga Pengelola Dana Pendidikan) adalah program beasiswa bergengsi dari pemerintah Indonesia untuk melanjutkan studi magister dan doktoral di perguruan tinggi terbaik dalam dan luar negeri.",
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Telah menyelesaikan studi program diploma empat (D4) atau sarjana (S1) untuk beasiswa magister",
+      "Tidak sedang menempuh studi degree atau non-degree baik S2 maupun S3",
+      "IPK minimal 3.00 untuk S2 dan 3.25 untuk S3",
+      "Sertifikat Bahasa Inggris (TOEFL/IELTS) sesuai ketentuan kampus tujuan",
+      "Surat rekomendasi dari akademisi atau atasan kerja"
+    ],
+    "benefits": [
+      "Dana Pendaftaran",
+      "Dana SPP (Tuition Fee)",
+      "Dana Tunjangan Buku",
+      "Dana Penelitian Tesis/Disertasi",
+      "Dana Seminar Internasional",
+      "Dana Transportasi (Tiket PP)",
+      "Dana Asuransi Kesehatan",
+      "Dana Hidup Bulanan (Living Allowance)"
+    ]
+  },
+  {
+    "id": "chevening",
+    "title": "Chevening Scholarship",
+    "provider": "UK Government",
+    "deadline": "2026-11-01",
+    "value": "Fully Funded",
+    "level": "S2",
+    "type": "Luar Negeri (UK)",
+    "description": "Chevening adalah program beasiswa global Pemerintah Inggris yang menawarkan kesempatan kepada pemimpin masa depan untuk belajar di Inggris. Beasiswa ini diberikan kepada mahasiswa berprestasi dengan potensi kepemimpinan.",
+    "requirements": [
+      "Warga negara dari negara yang memenuhi syarat Chevening (termasuk Indonesia)",
+      "Memiliki gelar sarjana dengan predikat sangat baik",
+      "Memiliki pengalaman kerja minimal 2 tahun (2.800 jam)",
+      "Belum pernah belajar di Inggris dengan beasiswa pemerintah Inggris sebelumnya",
+      "Kemampuan bahasa Inggris yang kuat (IELTS minimal 6.5)"
+    ],
+    "benefits": [
+      "Biaya kuliah penuh di universitas mana pun di UK",
+      "Tunjangan hidup bulanan",
+      "Biaya perjalanan pergi-pulang ke UK",
+      "Tunjangan kedatangan dan keberangkatan",
+      "Biaya visa",
+      "Tunjangan perjalanan untuk menghadiri acara Chevening di UK"
+    ]
+  },
+  {
+    "id": "fulbright",
+    "title": "Fulbright Master's Degree Program",
+    "provider": "AMINEF (US Government)",
+    "deadline": "2026-02-15",
+    "value": "Fully Funded",
+    "level": "S2",
+    "type": "Luar Negeri (USA)",
+    "description": "Program Fulbright Master's Degree memberikan kesempatan kepada WNI untuk meraih gelar Master di universitas-universitas di Amerika Serikat dalam berbagai bidang studi, kecuali bidang kedokteran yang terkait dengan perawatan pasien.",
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memiliki kualitas kepemimpinan yang baik",
+      "IPK minimal 3.0 dari skala 4.0",
+      "Skor TOEFL ITP minimal 550, atau IELTS 6.5",
+      "Komitmen untuk kembali ke Indonesia setelah selesai studi"
+    ],
+    "benefits": [
+      "Dukungan visa J-1",
+      "Tiket pesawat kelas ekonomi PP ke Amerika Serikat",
+      "Biaya kuliah dan biaya wajib (tuition and fees)",
+      "Tunjangan hidup dan biaya terkait lainnya",
+      "Asuransi kesehatan dasar"
+    ]
+  },
+  {
+    "id": "aas",
+    "title": "Australia Awards Scholarships",
+    "provider": "Australian Government",
+    "deadline": "2026-04-30",
+    "value": "Fully Funded",
+    "level": "S2, S3",
+    "type": "Luar Negeri (Australia)",
+    "description": "Australia Awards Scholarships memberikan peluang kepada generasi pemimpin dari negara berkembang (termasuk Indonesia) untuk menempuh studi, penelitian, dan pengembangan profesional di Australia.",
+    "requirements": [
+      "WNI yang berdomisili di Indonesia",
+      "Tidak menikah dengan warga negara Australia atau Selandia Baru",
+      "IPK minimal 2.9 (pada skala 4.0)",
+      "Skor IELTS minimal 5.5 untuk S2",
+      "Menjawab pertanyaan esai mengenai kontribusi pembangunan di Indonesia"
+    ],
+    "benefits": [
+      "Pelatihan Bahasa Inggris sebelum keberangkatan (Pre-Departure Training)",
+      "Biaya penerbangan PP",
+      "Biaya kuliah (Tuition fees)",
+      "Biaya hidup",
+      "Program Pengenalan Akademik (IAP)",
+      "Asuransi Kesehatan Pelajar Luar Negeri (OSHC)"
+    ]
+  },
+  {
+    "id": "mext",
+    "title": "MEXT (Monbukagakusho) Scholarship",
+    "provider": "Kementerian Pendidikan Jepang",
+    "deadline": "2026-05-10",
+    "value": "Fully Funded",
+    "level": "S1, S2, S3",
+    "type": "Luar Negeri (Jepang)",
+    "description": "Beasiswa Monbukagakusho (MEXT) adalah beasiswa bergengsi dari Kementerian Pendidikan, Kebudayaan, Olahraga, Ilmu Pengetahuan dan Teknologi Jepang untuk mahasiswa internasional.",
+    "requirements": [
+      "Warga Negara Indonesia",
+      "Usia maksimal 24 tahun (untuk S1) atau 34 tahun (untuk S2/S3)",
+      "Lulusan SMA/SMK (S1) atau S1/S2 (S2/S3) dengan nilai akademik baik",
+      "Bersedia belajar bahasa Jepang",
+      "Sehat jasmani dan rohani"
+    ],
+    "benefits": [
+      "Biaya ujian masuk, biaya pendaftaran, dan biaya kuliah (sepenuhnya ditanggung)",
+      "Tunjangan hidup bulanan (sekitar 117.000 - 145.000 Yen)",
+      "Tiket pesawat kelas ekonomi PP Indonesia-Jepang",
+      "Bebas biaya pengurusan visa"
+    ]
+  },
+  {
+    "id": "beasiswa-unggulan",
+    "title": "Beasiswa Unggulan",
+    "provider": "Kemendikbudristek RI",
+    "deadline": "2026-08-20",
+    "value": "Bantuan Dana Pendidikan",
+    "level": "S1, S2, S3",
+    "type": "Dalam Negeri",
+    "description": "Beasiswa Unggulan adalah beasiswa dari Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi untuk mahasiswa berprestasi yang sedang atau akan menempuh pendidikan di perguruan tinggi dalam negeri.",
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Diterima di Perguruan Tinggi terakreditasi minimal B",
+      "Mahasiswa baru atau maksimal semester 3",
+      "Memiliki prestasi tingkat nasional atau internasional",
+      "Mendapat rekomendasi dari institusi"
+    ],
+    "benefits": [
+      "Biaya Pendidikan (SPP/UKT)",
+      "Biaya Hidup Bulanan",
+      "Biaya Buku",
+      "Pendanaan riset dan pengembangan"
+    ]
+  },
+  {
+    "id": "beasiswa-1780324678090",
+    "title": "Beasiswa LPDP Kerja Sama Indonesia – Tiongkok Bidang Metalurgi dan Perdagangan Internasional di Central South University (CSU) Program Master 2026",
+    "description": "Program beasiswa fully funded kerja sama LPDP, Central South University (CSU), dan GEM Co. Ltd. untuk jenjang S2 Bidang Metalurgi dan Perdagangan Internasional.",
+    "deadline": "2026-06-30",
+    "applyUrl": "https://lpdp.kemenkeu.go.id/",
+    "provider": "LPDP, Central South University, dan GEM Co. Ltd.",
+    "category": "S2",
+    "type": "Semua Universitas",
+    "level": "S2",
+    "tags": [
+      "LPDP",
+      "S2",
+      "Tiongkok",
+      "Fully Funded",
+      "Metalurgi"
+    ],
+    "benefits": [
+      "Bebas seluruh biaya perkuliahan hingga selesai masa kuliah",
+      "Dana Hidup Bulanan",
+      "Biaya Pendaftaran",
+      "Dana Tunjangan Buku",
+      "Dana Penelitian Disertasi/Tesis",
+      "Dana Seminar Internasional",
+      "Tiket Transportasi Keberangkatan dan Kepulangan",
+      "Dana Aplikasi Visa",
+      "Asuransi Kesehatan",
+      "Dana Keadaan Darurat",
+      "Dana Publikasi Jurnal Internasional",
+      "Dana Kedatangan"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI).",
+      "Terbuka untuk masyarakat umum, CPNS, dan PNS.",
+      "Tidak diperuntukkan bagi anggota TNI dan POLRI.",
+      "Khusus untuk jenjang Master (S2) di Central South University (CSU).",
+      "Telah menyelesaikan pendidikan D4 atau S1.",
+      "Pendaftar yang telah menyelesaikan studi Magister (S2) tidak diperkenankan mendaftar.",
+      "Memilih salah satu program studi yang ditetapkan pada program beasiswa.",
+      "Bersedia mengikuti studi penuh waktu (full time).",
+      "Mengunggah seluruh dokumen persyaratan pada sistem LPDP.",
+      "Menulis Personal Statement.",
+      "Menulis komitmen kembali ke Indonesia, rencana pascastudi, dan kontribusi untuk Indonesia.",
+      "Menyetujui seluruh ketentuan dan pernyataan LPDP."
+    ],
+    "documents": [
+      "KTP",
+      "Ijazah D4/S1",
+      "Transkrip Nilai",
+      "CV",
+      "Personal Statement",
+      "Surat Rekomendasi",
+      "Dokumen komitmen kembali ke Indonesia",
+      "Dokumen rencana pascastudi",
+      "Dokumen kontribusi untuk Indonesia",
+      "Dokumen publikasi/prestasi (jika ada)",
+      "Penyetaraan ijazah dan konversi IPK (untuk lulusan luar negeri)",
+      "Dokumen pendukung lain sesuai ketentuan LPDP"
+    ]
+  },
+  {
+    "id": "luarkampus-2578",
+    "title": "Beasiswa LPDP - The University of Sydney Program Doktor Bidang Teknik 2026",
+    "provider": "Kementerian Keuangan RI (LPDP)",
+    "deadline": "2026-06-30",
+    "applyUrl": "https://beasiswalpdp.kemenkeu.go.id/",
+    "level": "S3",
+    "category": "S3",
+    "type": "Australia",
+    "description": "Beasiswa LPDP kerja sama (co-funding) dengan The University of Sydney untuk Program Doktor (PhD) di bidang Teknik. Program ini ditujukan bagi WNI yang ingin mengejar pendidikan S3 berbasis riset di Australia.",
+    "tags": [
+      "Australia",
+      "S3"
+    ],
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Stipend)",
+      "Asuransi kesehatan",
+      "Dana penelitian dan publikasi",
+      "Biaya kedatangan dan kepulangan"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memiliki LoA Unconditional dari The University of Sydney Fakultas Teknik",
+      "Memiliki proposal riset yang sejalan dengan prioritas industri strategis",
+      "Memenuhi syarat bahasa Inggris (IELTS/TOEFL)"
+    ]
+  },
+  {
+    "id": "luarkampus-2576",
+    "title": "RIFS Fellow Programme 2027",
+    "provider": "Research Institute for Sustainability (RIFS)",
+    "deadline": "2026-06-21",
+    "applyUrl": "https://www.rifs-potsdam.de/en/fellows",
+    "level": "S3 / Postdoc / Profesional",
+    "category": "D3, D4, S1, 2+",
+    "type": "Jerman",
+    "description": "Research Institute for Sustainability (RIFS) Fellow Programme di Potsdam, Jerman. Ditujukan untuk peneliti (PhD) dan profesional untuk berkolaborasi dalam penelitian transisi keberlanjutan. Tema 2027: Sustainability in Tough Times.",
+    "tags": [
+      "Jerman",
+      "D3, D4, S1, 2+"
+    ],
+    "benefits": [
+      "Stipend bulanan (berdasarkan senioritas dan keluarga)",
+      "Biaya perjalanan dan relokasi (termasuk keluarga)",
+      "Bantuan akomodasi, visa, dan asuransi kesehatan",
+      "Akses ke jaringan internasional RIFS"
+    ],
+    "requirements": [
+      "Memiliki gelar PhD atau pengalaman kerja profesional minimal 3-5 tahun",
+      "Mengajukan proposal riset yang relevan dengan tema keberlanjutan",
+      "Terbuka untuk semua kewarganegaraan",
+      "Kemampuan bahasa Inggris aktif"
+    ]
+  },
+  {
+    "id": "luarkampus-2573",
+    "title": "Beasiswa GEM Magister Metalurgi – Multidisiplin Material Baterai ITB 2026",
+    "provider": "GEM Co., Ltd. & ITB",
+    "deadline": "2026-06-15",
+    "applyUrl": "https://admission.itb.ac.id/",
+    "level": "S2",
+    "category": "S2",
+    "type": "Indonesia",
+    "description": "Program kemitraan strategis antara Institut Teknologi Bandung (ITB) dan GEM Co., Ltd. untuk mencetak SDM unggul di bidang metalurgi, material baterai, dan teknologi energi berkelanjutan.",
+    "tags": [
+      "Indonesia",
+      "S2"
+    ],
+    "benefits": [
+      "Subsidi Biaya Penyelenggaraan Pendidikan (BPP) hingga 100%",
+      "Dana Riset Tesis",
+      "Kesempatan Sandwich Program ke Central South University atau GEM Co., Ltd. Tiongkok"
+    ],
+    "requirements": [
+      "Lulus S1 dengan IPK minimal 3.00",
+      "Latar belakang: Kimia, Teknik Kimia, Fisika, Teknik Fisika, Teknik Metalurgi, Teknik Material, atau Teknik Mesin",
+      "Mendaftar di prodi Magister Teknik Metalurgi / Teknologi Nano (ITB)"
+    ]
+  },
+  {
+    "id": "luarkampus-2572",
+    "title": "Beasiswa BAZNAS Kota Banjar 2026",
+    "provider": "BAZNAS Kota Banjar",
+    "deadline": "2026-06-19",
+    "applyUrl": "https://beasiswa.baznas.go.id/",
+    "level": "S1",
+    "category": "S1",
+    "type": "Indonesia",
+    "description": "Beasiswa pendidikan jenjang S1 dari BAZNAS Kota Banjar. Program ini bertujuan membantu biaya pendidikan bagi mahasiswa yang berasal dari keluarga kurang mampu atau berprestasi di wilayah Kota Banjar.",
+    "tags": [
+      "Indonesia",
+      "S1"
+    ],
+    "benefits": [
+      "Bantuan biaya kuliah (UKT/SPP)",
+      "Bantuan biaya hidup (tentatif sesuai kebijakan)"
+    ],
+    "requirements": [
+      "Warga berdomisili atau beralamat di Kota Banjar",
+      "Berasal dari keluarga kurang mampu (Mustahik) atau memiliki prestasi akademik",
+      "Sedang menempuh jenjang S1 di perguruan tinggi",
+      "Lolos seleksi administrasi BAZNAS Kota Banjar"
+    ]
+  },
+  {
+    "id": "luarkampus-2568",
+    "title": "Beasiswa PTN Yayasan Bersatu Membangun Indonesia Sejahtera (YBMI)",
+    "provider": "Yayasan Bersatu Membangun Indonesia Sejahtera (YBMI)",
+    "deadline": "2026-06-26",
+    "applyUrl": "http://www.yayasanbersatumembangunindonesia.org",
+    "level": "S1",
+    "category": "D3, D4, S1",
+    "type": "Indonesia",
+    "description": "Beasiswa Yayasan Bersatu Membangun Indonesia Sejahtera (YBMIS) untuk siswa SMA berprestasi yang lolos ke Perguruan Tinggi Negeri (PTN) melalui jalur SNBP/SNBT. Membantu siswa berkendala ekonomi hingga lulus S1.",
+    "tags": [
+      "Indonesia",
+      "D3, D4, S1"
+    ],
+    "benefits": [
+      "Beasiswa penuh (biaya kuliah) hingga lulus Sarjana (S1)",
+      "Dukungan pembinaan karakter dan pendidikan"
+    ],
+    "requirements": [
+      "Siswa SMA/sederajat yang telah lolos seleksi masuk PTN (SNBP atau SNBT)",
+      "Memiliki kendala ekonomi",
+      "Berprestasi akademik",
+      "Lolos seleksi wawancara dan administrasi yayasan"
+    ]
+  },
+  {
+    "id": "luarkampus-2566",
+    "title": "Beasiswa Undergraduate International Regional Scholarship 2026",
+    "provider": "Beasiswa Undergraduate International",
+    "deadline": "2027-01-01",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20Undergraduate%20International%20Regional%20Scholarship%202026",
+    "level": "S1",
+    "category": "S1",
+    "type": "Inggris",
+    "description": "Beasiswa Beasiswa Undergraduate International Regional Scholarship 2026 adalah program dukungan pendidikan jenjang S1 yang berlokasi di Inggris. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S1",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Inggris",
+      "S1",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2565",
+    "title": "Beasiswa International Undergraduate Scholarships 2026",
+    "provider": "Beasiswa International Undergraduate",
+    "deadline": "2027-01-01",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20International%20Undergraduate%20Scholarships%202026",
+    "level": "S1",
+    "category": "S1",
+    "type": "Inggris",
+    "description": "Beasiswa Beasiswa International Undergraduate Scholarships 2026 adalah program dukungan pendidikan jenjang S1 yang berlokasi di Inggris. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S1",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Inggris",
+      "S1",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2564",
+    "title": "Beasiswa Vice-Chancellor’s International Scholarships 2026",
+    "provider": "Beasiswa Vice-Chancellor’s International",
+    "deadline": "2026-12-30",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20Vice-Chancellor%E2%80%99s%20International%20Scholarships%202026",
+    "level": "S1",
+    "category": "S1",
+    "type": "Inggris",
+    "description": "Beasiswa Beasiswa Vice-Chancellor’s International Scholarships 2026 adalah program dukungan pendidikan jenjang S1 yang berlokasi di Inggris. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S1",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Inggris",
+      "S1",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2563",
+    "title": "Beasiswa Bath International Excellence Scholarships 2026",
+    "provider": "Beasiswa Bath International",
+    "deadline": "2026-06-25",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20Bath%20International%20Excellence%20Scholarships%202026",
+    "level": "S1",
+    "category": "S1",
+    "type": "Inggris",
+    "description": "Beasiswa Beasiswa Bath International Excellence Scholarships 2026 adalah program dukungan pendidikan jenjang S1 yang berlokasi di Inggris. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S1",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Inggris",
+      "S1",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2561",
+    "title": "Beasiswa Prestasi &amp; Tahfidz FK UNIDA Gontor 2026",
+    "provider": "Beasiswa Prestasi &amp;",
+    "deadline": "2026-06-27",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20Prestasi%20%26amp%3B%20Tahfidz%20FK%20UNIDA%20Gontor%202026",
+    "level": "S1, Gap",
+    "category": "S1, Gap",
+    "type": "Indonesia",
+    "description": "Beasiswa Beasiswa Prestasi &amp; Tahfidz FK UNIDA Gontor 2026 adalah program dukungan pendidikan jenjang S1, Gap yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S1, Gap",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "S1, Gap",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2560",
+    "title": "Program JoinWonderful Batch 3 Tahun 2026",
+    "provider": "Program JoinWonderful Batch",
+    "deadline": "2026-06-12",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Program%20JoinWonderful%20Batch%203%20Tahun%202026",
+    "level": "D3, D4, S1",
+    "category": "D3, D4, S1",
+    "type": "Indonesia",
+    "description": "Beasiswa Program JoinWonderful Batch 3 Tahun 2026 adalah program dukungan pendidikan jenjang D3, D4, S1 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang D3, D4, S1",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "D3, D4, S1",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2559",
+    "title": "Beasiswa International Islamic University Malaysia ",
+    "provider": "Beasiswa International Islamic",
+    "deadline": "2026-07-15",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20International%20Islamic%20University%20Malaysia%20",
+    "level": "S3",
+    "category": "S3",
+    "type": "Malaysia",
+    "description": "Beasiswa Beasiswa International Islamic University Malaysia  adalah program dukungan pendidikan jenjang S3 yang berlokasi di Malaysia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S3",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Malaysia",
+      "S3",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2558",
+    "title": "Beasiswa Unggulan Pascasarjana Padjadjaran (BUPP) 2026/2027",
+    "provider": "Beasiswa Unggulan Pascasarjana",
+    "deadline": "2026-07-13",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20Unggulan%20Pascasarjana%20Padjadjaran%20(BUPP)%202026%2F2027",
+    "level": "S2, S3",
+    "category": "S2, S3",
+    "type": "Indonesia",
+    "description": "Beasiswa Beasiswa Unggulan Pascasarjana Padjadjaran (BUPP) 2026/2027 adalah program dukungan pendidikan jenjang S2, S3 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S2, S3",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "S2, S3",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2541",
+    "title": "Beasiswa Doktoral Padjadjaran (BPDP) 2026",
+    "provider": "Beasiswa Doktoral Padjadjaran",
+    "deadline": "2026-07-13",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20Doktoral%20Padjadjaran%20(BPDP)%202026",
+    "level": "S3",
+    "category": "S3",
+    "type": "Indonesia",
+    "description": "Beasiswa Beasiswa Doktoral Padjadjaran (BPDP) 2026 adalah program dukungan pendidikan jenjang S3 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S3",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "S3",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2538",
+    "title": "Beasiswa Graduate Research Scholarship University of Melbourne",
+    "provider": "Beasiswa Graduate Research",
+    "deadline": "2026-10-31",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20Graduate%20Research%20Scholarship%20University%20of%20Melbourne",
+    "level": "S2, S3",
+    "category": "S2, S3",
+    "type": "Australia",
+    "description": "Beasiswa Beasiswa Graduate Research Scholarship University of Melbourne adalah program dukungan pendidikan jenjang S2, S3 yang berlokasi di Australia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S2, S3",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Australia",
+      "S2, S3",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-883",
+    "title": "Program Beasiswa Santri Berprestasi (Program Santri Beasiswa Pesantren)",
+    "provider": "Kementerian Agama RI",
+    "deadline": "2026-06-05",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Program%20Beasiswa%20Santri%20Berprestasi%20(Program%20Santri%20Beasiswa%20Pesantren)",
+    "level": "S1",
+    "category": "S1",
+    "type": "Indonesia",
+    "description": "Beasiswa Program Beasiswa Santri Berprestasi (Program Santri Beasiswa Pesantren) adalah program dukungan pendidikan jenjang S1 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S1",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "S1",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2577",
+    "title": "The Sunan Kalijaga Global Scholarship (SGS) 2026/2027",
+    "provider": "The Sunan Kalijaga",
+    "deadline": "2026-05-31",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+The%20Sunan%20Kalijaga%20Global%20Scholarship%20(SGS)%202026%2F2027",
+    "level": "S1, S2, S3",
+    "category": "S1, S2, S3",
+    "type": "Indonesia",
+    "description": "Beasiswa The Sunan Kalijaga Global Scholarship (SGS) 2026/2027 adalah program dukungan pendidikan jenjang S1, S2, S3 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S1, S2, S3",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "S1, S2, S3",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2575",
+    "title": "Grab Indonesia Internship Program (GIP) 2026",
+    "provider": "Grab Indonesia Internship",
+    "deadline": "2026-05-31",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Grab%20Indonesia%20Internship%20Program%20(GIP)%202026",
+    "level": "S1",
+    "category": "S1",
+    "type": "Indonesia",
+    "description": "Beasiswa Grab Indonesia Internship Program (GIP) 2026 adalah program dukungan pendidikan jenjang S1 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S1",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "S1",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2574",
+    "title": "Uzbekistan Summer School 2026",
+    "provider": "Uzbekistan Summer School",
+    "deadline": "2026-05-31",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Uzbekistan%20Summer%20School%202026",
+    "level": "S1, S2, S3, Non",
+    "category": "S1, S2, S3, Non",
+    "type": "Uzbekistan",
+    "description": "Beasiswa Uzbekistan Summer School 2026 adalah program dukungan pendidikan jenjang S1, S2, S3, Non yang berlokasi di Uzbekistan. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S1, S2, S3, Non",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Uzbekistan",
+      "S1, S2, S3, Non",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2406",
+    "title": "Beasiswa UPZ BAZNAS PT Bank Permata Tbk Tahun 2026",
+    "provider": "Beasiswa UPZ BAZNAS",
+    "deadline": "2026-03-07",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20UPZ%20BAZNAS%20PT%20Bank%20Permata%20Tbk%20Tahun%202026",
+    "level": "D3, D4, S1",
+    "category": "D3, D4, S1",
+    "type": "Indonesia",
+    "description": "Beasiswa Beasiswa UPZ BAZNAS PT Bank Permata Tbk Tahun 2026 adalah program dukungan pendidikan jenjang D3, D4, S1 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang D3, D4, S1",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "D3, D4, S1",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2395",
+    "title": "Beasiswa Pemerintah Latvia",
+    "provider": "Beasiswa Pemerintah Latvia",
+    "deadline": "2026-04-01",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20Pemerintah%20Latvia",
+    "level": "S1, S2, S3",
+    "category": "S1, S2, S3",
+    "type": "Latvia",
+    "description": "Beasiswa Beasiswa Pemerintah Latvia adalah program dukungan pendidikan jenjang S1, S2, S3 yang berlokasi di Latvia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S1, S2, S3",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Latvia",
+      "S1, S2, S3",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2390",
+    "title": "Beasiswa Mahasiswa Berprestasi 2026",
+    "provider": "Beasiswa Mahasiswa Berprestasi",
+    "deadline": "2026-04-01",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20Mahasiswa%20Berprestasi%202026",
+    "level": "D3, S1",
+    "category": "D3, S1",
+    "type": "Indonesia",
+    "description": "Beasiswa Beasiswa Mahasiswa Berprestasi 2026 adalah program dukungan pendidikan jenjang D3, S1 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang D3, S1",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "D3, S1",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2363",
+    "title": "Beasiswa S1 Satu Keluarga Dhuafa Satu Sarjana 2026",
+    "provider": "Beasiswa S1 Satu",
+    "deadline": "2026-03-28",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20S1%20Satu%20Keluarga%20Dhuafa%20Satu%20Sarjana%202026",
+    "level": "D3, D4, S1",
+    "category": "D3, D4, S1",
+    "type": "Indonesia",
+    "description": "Beasiswa Beasiswa S1 Satu Keluarga Dhuafa Satu Sarjana 2026 adalah program dukungan pendidikan jenjang D3, D4, S1 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang D3, D4, S1",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "D3, D4, S1",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2359",
+    "title": "Beasiswa Kabupaten Magetan 2026",
+    "provider": "Beasiswa Kabupaten Magetan",
+    "deadline": "2026-03-31",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20Kabupaten%20Magetan%202026",
+    "level": "D3, D4, S1",
+    "category": "D3, D4, S1",
+    "type": "Indonesia",
+    "description": "Beasiswa Beasiswa Kabupaten Magetan 2026 adalah program dukungan pendidikan jenjang D3, D4, S1 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang D3, D4, S1",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "D3, D4, S1",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2357",
+    "title": "Beasiswa Prestasi Mahasiswa Baru 2026",
+    "provider": "Beasiswa Prestasi Mahasiswa",
+    "deadline": "2026-04-05",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20Prestasi%20Mahasiswa%20Baru%202026",
+    "level": "D3, S1, Gap",
+    "category": "D3, S1, Gap",
+    "type": "Indonesia",
+    "description": "Beasiswa Beasiswa Prestasi Mahasiswa Baru 2026 adalah program dukungan pendidikan jenjang D3, S1, Gap yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang D3, S1, Gap",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "D3, S1, Gap",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2355",
+    "title": "Beasiswa SADESSA (Satu Desa Satu Sarjana)",
+    "provider": "Beasiswa SADESSA (Satu",
+    "deadline": "2026-03-30",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20SADESSA%20(Satu%20Desa%20Satu%20Sarjana)",
+    "level": "D3, D4, S1",
+    "category": "D3, D4, S1",
+    "type": "Indonesia",
+    "description": "Beasiswa Beasiswa SADESSA (Satu Desa Satu Sarjana) adalah program dukungan pendidikan jenjang D3, D4, S1 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang D3, D4, S1",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "D3, D4, S1",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2353",
+    "title": "UPNVJT Scholarship for International Students",
+    "provider": "UPNVJT Scholarship for",
+    "deadline": "2026-04-01",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+UPNVJT%20Scholarship%20for%20International%20Students",
+    "level": "S1, S2, S3",
+    "category": "S1, S2, S3",
+    "type": "Indonesia",
+    "description": "Beasiswa UPNVJT Scholarship for International Students adalah program dukungan pendidikan jenjang S1, S2, S3 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S1, S2, S3",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "S1, S2, S3",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2554",
+    "title": "Beasiswa Sekolah Penerbang Politeknik Penerbangan Indonesia (PPI) Curug",
+    "provider": "Beasiswa Sekolah Penerbang",
+    "deadline": "2026-06-09",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20Sekolah%20Penerbang%20Politeknik%20Penerbangan%20Indonesia%20(PPI)%20Curug",
+    "level": "D4",
+    "category": "D4",
+    "type": "Indonesia",
+    "description": "Beasiswa Beasiswa Sekolah Penerbang Politeknik Penerbangan Indonesia (PPI) Curug adalah program dukungan pendidikan jenjang D4 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang D4",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "D4",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2548",
+    "title": "Darmasiswa Indonesian Scholarship 2026",
+    "provider": "Darmasiswa Indonesian Scholarship",
+    "deadline": "2026-06-15",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Darmasiswa%20Indonesian%20Scholarship%202026",
+    "level": "S1, S2, S3",
+    "category": "S1, S2, S3",
+    "type": "Indonesia",
+    "description": "Beasiswa Darmasiswa Indonesian Scholarship 2026 adalah program dukungan pendidikan jenjang S1, S2, S3 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S1, S2, S3",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "S1, S2, S3",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2546",
+    "title": "Beasiswa Meratus Maratime Khusus Taruna Akademi Pelayaran",
+    "provider": "Beasiswa Meratus Maratime",
+    "deadline": "2026-06-15",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20Meratus%20Maratime%20Khusus%20Taruna%20Akademi%20Pelayaran",
+    "level": "D3, D4",
+    "category": "D3, D4",
+    "type": "Indonesia",
+    "description": "Beasiswa Beasiswa Meratus Maratime Khusus Taruna Akademi Pelayaran adalah program dukungan pendidikan jenjang D3, D4 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang D3, D4",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "D3, D4",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-2542",
+    "title": "Afrina Scholarship 2026",
+    "provider": "Afrina Scholarship 2026",
+    "deadline": "2026-06-15",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Afrina%20Scholarship%202026",
+    "level": "D4, S1",
+    "category": "D4, S1",
+    "type": "Indonesia",
+    "description": "Beasiswa Afrina Scholarship 2026 adalah program dukungan pendidikan jenjang D4, S1 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang D4, S1",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "D4, S1",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-1744",
+    "title": "BSI Scholarship Unggulan 2026 Batch 2",
+    "provider": "BSI Scholarship Unggulan",
+    "deadline": "2026-06-07",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+BSI%20Scholarship%20Unggulan%202026%20Batch%202",
+    "level": "S1",
+    "category": "S1",
+    "type": "Indonesia",
+    "description": "Beasiswa BSI Scholarship Unggulan 2026 Batch 2 adalah program dukungan pendidikan jenjang S1 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S1",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "S1",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-1707",
+    "title": "Beasiswa Etos ID 2026",
+    "provider": "Beasiswa Etos ID",
+    "deadline": "2026-06-10",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20Etos%20ID%202026",
+    "level": "D4, S1",
+    "category": "D4, S1",
+    "type": "Indonesia",
+    "description": "Beasiswa Beasiswa Etos ID 2026 adalah program dukungan pendidikan jenjang D4, S1 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang D4, S1",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "D4, S1",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-1676",
+    "title": "Beasiswa Malaysian Technical Cooperation Programme ",
+    "provider": "Beasiswa Malaysian Technical",
+    "deadline": "2026-06-12",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20Malaysian%20Technical%20Cooperation%20Programme%20",
+    "level": "S2",
+    "category": "S2",
+    "type": "Malaysia",
+    "description": "Beasiswa Beasiswa Malaysian Technical Cooperation Programme  adalah program dukungan pendidikan jenjang S2 yang berlokasi di Malaysia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S2",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Malaysia",
+      "S2",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-1623",
+    "title": "Beasiswa Romanian Government ARICE Scholarship ",
+    "provider": "Beasiswa Romanian Government",
+    "deadline": "2026-06-12",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20Romanian%20Government%20ARICE%20Scholarship%20",
+    "level": "S1, S2, S3",
+    "category": "S1, S2, S3",
+    "type": "Romania",
+    "description": "Beasiswa Beasiswa Romanian Government ARICE Scholarship  adalah program dukungan pendidikan jenjang S1, S2, S3 yang berlokasi di Romania. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S1, S2, S3",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Romania",
+      "S1, S2, S3",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-1618",
+    "title": "Beasiswa Schwarzman di Universitas Tsinghua",
+    "provider": "Beasiswa Schwarzman di",
+    "deadline": "2026-09-09",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20Schwarzman%20di%20Universitas%20Tsinghua",
+    "level": "S2",
+    "category": "S2",
+    "type": "Republik Rakyat Tiongkok",
+    "description": "Beasiswa Beasiswa Schwarzman di Universitas Tsinghua adalah program dukungan pendidikan jenjang S2 yang berlokasi di Republik Rakyat Tiongkok. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S2",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Republik Rakyat Tiongkok",
+      "S2",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-1606",
+    "title": " Beasiswa STEAM Amartha ",
+    "provider": " Beasiswa STEAM",
+    "deadline": "2026-06-21",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+%20Beasiswa%20STEAM%20Amartha%20",
+    "level": "S1",
+    "category": "S1",
+    "type": "Indonesia",
+    "description": "Beasiswa  Beasiswa STEAM Amartha  adalah program dukungan pendidikan jenjang S1 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S1",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "S1",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-1591",
+    "title": "Beasiswa NAMA Fund Batch 8",
+    "provider": "Beasiswa NAMA Fund",
+    "deadline": "2026-01-28",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20NAMA%20Fund%20Batch%208",
+    "level": "D3, S2",
+    "category": "D3, S2",
+    "type": "Indonesia",
+    "description": "Beasiswa Beasiswa NAMA Fund Batch 8 adalah program dukungan pendidikan jenjang D3, S2 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang D3, S2",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "D3, S2",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-1526",
+    "title": "Matsumae International Foundation Research S3 Fellowship 2027",
+    "provider": "Matsumae International Foundation",
+    "deadline": "2026-06-30",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Matsumae%20International%20Foundation%20Research%20S3%20Fellowship%202027",
+    "level": "S3",
+    "category": "S3",
+    "type": "Jepang",
+    "description": "Beasiswa Matsumae International Foundation Research S3 Fellowship 2027 adalah program dukungan pendidikan jenjang S3 yang berlokasi di Jepang. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang S3",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Jepang",
+      "S3",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-1473",
+    "title": "Beasiswa Djarum Plus",
+    "provider": "Beasiswa Djarum Plus",
+    "deadline": "2026-06-10",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+Beasiswa%20Djarum%20Plus",
+    "level": "D4, S1",
+    "category": "D4, S1",
+    "type": "Indonesia",
+    "description": "Beasiswa Beasiswa Djarum Plus adalah program dukungan pendidikan jenjang D4, S1 yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang D4, S1",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "D4, S1",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "luarkampus-1457",
+    "title": "LPS Call for Research ",
+    "provider": "LPS Call for",
+    "deadline": "2026-09-25",
+    "applyUrl": "https://www.google.com/search?q=Pendaftaran+Official+LPS%20Call%20for%20Research%20",
+    "level": "D4, S1, S2, 2+",
+    "category": "D4, S1, S2, 2+",
+    "type": "Indonesia",
+    "description": "Beasiswa LPS Call for Research  adalah program dukungan pendidikan jenjang D4, S1, S2, 2+ yang berlokasi di Indonesia. Program ini bertujuan untuk memberikan dukungan penuh kepada pelajar berprestasi untuk meraih pendidikan tinggi. Program ini bersifat Fully Funded (pendanaan penuh).",
+    "benefits": [
+      "Biaya kuliah penuh (Tuition Fees)",
+      "Biaya hidup bulanan (Living Allowance / Stipend)",
+      "Biaya perjalanan (Tiket pesawat PP)",
+      "Asuransi kesehatan dasar",
+      "Tunjangan buku dan penelitian"
+    ],
+    "requirements": [
+      "Warga Negara Indonesia (WNI)",
+      "Memenuhi persyaratan akademik untuk jenjang D4, S1, S2, 2+",
+      "Memiliki sertifikat bahasa Inggris (IELTS/TOEFL) sesuai standar universitas",
+      "Motivation letter dan proposal penelitian (khusus S2/S3)",
+      "Surat rekomendasi dari akademisi atau profesional"
+    ],
+    "fundings": "Fully Funded",
+    "tags": [
+      "Indonesia",
+      "D4, S1, S2, 2+",
+      "Fully Funded"
+    ]
+  },
+  {
+    "id": "lk-2566",
+    "title": "Beasiswa Undergraduate International Regional Scholarship 2026",
+    "provider": "Inggris",
+    "deadline": "2027-01-01",
+    "value": "Partial Funded",
+    "level": "S1",
+    "type": "Luar Negeri",
+    "description": "Beasiswa untuk pelajar internasional di jenjang S1.",
+    "requirements": [
+      "IELTS 6.5",
+      "Warga negara non-UK"
+    ],
+    "benefits": [
+      "Potongan biaya kuliah"
+    ]
+  },
+  {
+    "id": "lk-2556",
+    "title": "NGO Fellowship Program Taiwan 2026",
+    "provider": "Taiwan",
+    "deadline": "2026-06-10",
+    "value": "Fully Funded",
+    "level": "Profesional",
+    "type": "Luar Negeri",
+    "description": "Program fellowship untuk profesional NGO.",
+    "requirements": [
+      "Pengalaman di NGO",
+      "Proposal proyek"
+    ],
+    "benefits": [
+      "Biaya pesawat",
+      "Akomodasi",
+      "Uang saku"
+    ]
+  }
+]

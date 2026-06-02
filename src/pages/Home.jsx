@@ -1,11 +1,14 @@
 import { Search, Compass } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import ScholarshipCard from '../components/ScholarshipCard';
-import { scholarships } from '../data/scholarships';
+
+import { supabase } from '../supabaseClient';
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState('');
+  const [featuredScholarships, setFeaturedScholarships] = useState([]);
+  const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
 
   const handleSearch = (e) => {
@@ -15,8 +18,21 @@ export default function Home() {
     }
   };
 
-  // Get top 3 scholarships for featured section
-  const featuredScholarships = scholarships.slice(0, 3);
+  useEffect(() => {
+    const fetchFeatured = async () => {
+      try {
+        const { data, error } = await supabase.from('scholarships').select('*').limit(3);
+        if (error) throw error;
+        const formattedData = data.map(item => ({ ...item, applyUrl: item.applyurl }));
+        setFeaturedScholarships(formattedData);
+      } catch (e) {
+        console.error('Failed to fetch scholarships', e);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchFeatured();
+  }, []);
 
   return (
     <div>
@@ -64,11 +80,15 @@ export default function Home() {
             <Link to="/scholarships" className="text-cyan" style={{ fontWeight: 600 }}>Lihat Semua →</Link>
           </div>
           
-          <div className="card-grid">
-            {featuredScholarships.map(scholarship => (
-              <ScholarshipCard key={scholarship.id} scholarship={scholarship} />
-            ))}
-          </div>
+          {loading ? (
+            <div style={{ textAlign: 'center', padding: '2rem', color: 'var(--text-secondary)' }}>Memuat beasiswa...</div>
+          ) : (
+            <div className="card-grid">
+              {featuredScholarships.map(scholarship => (
+                <ScholarshipCard key={scholarship.id} scholarship={scholarship} />
+              ))}
+            </div>
+          )}
         </div>
       </section>
 
